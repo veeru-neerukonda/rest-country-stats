@@ -9,17 +9,17 @@ $gray-03: #fff; //Dark Mode Text & Light Mode Elements
 $selection-blue: #0043CE; //color when objects are in focued
 
 :root{
-    --color-selection: 
+    --color-selection: #{$selection-blue};
 }
 
 html[theme='light']{
-    --color-background: $gray-02;
-    --color-foreground: $gray-03;
-    --text-color: $dark-01;
+    --color-background: #{$gray-02};
+    --color-foreground: #{$gray-03};
+    --text-color: #{$dark-01};
 }
 
 html[theme='dark']{
-    --color-background: $dark-02;
-    --color-foreground: $dark-03;
-    --text-color: $gray-03;
+    --color-background: #{$dark-02};
+    --color-foreground: #{$dark-03};
+    --text-color: #{$gray-03};
 }
