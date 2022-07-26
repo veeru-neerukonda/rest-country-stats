@@ -12,13 +12,13 @@ $selection-blue: #0043CE; //color when objects are in focued
     --color-selection: #{$selection-blue};
 }
 
-html[theme='light']{
+html[data-theme='light']{
     --color-background: #{$gray-02};
     --color-foreground: #{$gray-03};
     --color-text: #{$dark-01};
 }
 
-html[theme='dark']{
+html[data-theme='dark']{
     --color-background: #{$dark-02};
     --color-foreground: #{$dark-03};
     --color-text: #{$gray-03};
