@@ -1,5 +1,5 @@
 <script>
-import Card from './Card.svelte';
+import Card from './Primitives/Card.svelte';
 import ToggleDarkMode from './ToggleDarkMode.svelte';
 
 </script>
