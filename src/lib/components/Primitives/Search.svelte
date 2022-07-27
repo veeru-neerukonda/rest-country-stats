@@ -10,7 +10,7 @@
     <div class="search__icon-wrapper">
         <Icon width="24" height="24" icon="carbon:search" />
     </div>
-    <input class="search__field h--4" type="text" on:input={()=>{dispatch('text:changed',text)}} bind:value={text} placeholder="Search For A Country">
+    <input class="search__field h--04" type="text" on:input={()=>{dispatch('text:changed',text)}} bind:value={text} placeholder="Search For A Country">
 </div>
 
 <style lang="scss">
