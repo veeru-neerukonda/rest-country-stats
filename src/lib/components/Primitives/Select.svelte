@@ -31,7 +31,7 @@
 </script>
 
 <div class="select" tabindex="0">
-    <input bind:this="{display}" class="select__display h--04" type="text" value="Hanna" on:click={()=>{isOpen = !isOpen}}>
+    <input bind:this="{display}" class="select__display h--04" type="text" value="Filter By Region" on:click={()=>{isOpen = !isOpen}}>
     <div class="select__icon-wrapper">
         <Icon width="24" height="24" icon="ep:arrow-down" />
     </div>
