@@ -1,8 +1,19 @@
+.u-margin-top-05{
+    margin-top: var(--spacing-05);
+}
 .u-margin-top-07{
     margin-top: var(--spacing-07);
+}
+
+.u-margin-bottom-06{
+    margin-bottom: var(--spacing-06);
 }
 
 .u-margin-y-07{
     margin-top: var(--spacing-07);
     margin-bottom: var(--spacing-07);
+}
+
+.u-capitalize{
+    text-transform: capitalize;
 }
